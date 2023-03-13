@@ -1,0 +1,15 @@
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\bin\Debug\Grocery_Shop.exe.config
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\bin\Debug\Grocery_Shop.exe
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\bin\Debug\Grocery_Shop.pdb
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.csproj.AssemblyReference.cache
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.csproj.SuggestedBindingRedirects.cache
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.Billing.resources
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.Employees.resources
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.Items.resources
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.Login.resources
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.splach.resources
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.Properties.Resources.resources
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.csproj.GenerateResource.cache
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.csproj.CoreCompileInputs.cache
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.exe
+C:\Users\Compu\source\repos\Grocery_Shop\Grocery_Shop\obj\Debug\Grocery_Shop.pdb

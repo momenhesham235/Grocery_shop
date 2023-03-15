@@ -53,6 +53,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.ItemDGV = new System.Windows.Forms.DataGridView();
+            this.EmployeeLbl = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BillDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -359,12 +360,26 @@
             this.ItemDGV.TabIndex = 28;
             this.ItemDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ItemDGV_CellClick);
             // 
+            // EmployeeLbl
+            // 
+            this.EmployeeLbl.AutoSize = true;
+            this.EmployeeLbl.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeeLbl.ForeColor = System.Drawing.Color.White;
+            this.EmployeeLbl.Location = new System.Drawing.Point(890, 9);
+            this.EmployeeLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.EmployeeLbl.Name = "EmployeeLbl";
+            this.EmployeeLbl.Size = new System.Drawing.Size(50, 22);
+            this.EmployeeLbl.TabIndex = 29;
+            this.EmployeeLbl.Text = "User";
+            this.EmployeeLbl.Click += new System.EventHandler(this.EmployeeLbl_Click);
+            // 
             // Billing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(1058, 668);
+            this.Controls.Add(this.EmployeeLbl);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -372,6 +387,7 @@
             this.Name = "Billing";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Billing";
+            this.Load += new System.EventHandler(this.Billing_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BillDGV)).EndInit();
@@ -409,5 +425,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridView ItemDGV;
+        private System.Windows.Forms.Label EmployeeLbl;
     }
 }

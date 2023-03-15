@@ -132,6 +132,16 @@ namespace Grocery_Shop
             }
         }
 
+        private void EmployeeLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Billing_Load(object sender, EventArgs e)
+        {
+            EmployeeLbl.Text = Login.EmployeeName;
+        }
+
         int index;
         private void ItemDGV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
